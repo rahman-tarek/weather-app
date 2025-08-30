@@ -3,6 +3,8 @@ import fetchWeatherData from "../fetchWeatherData";
 
 const initialState = {
     weather: [],
+    hourlyForecast: [],
+    dailyForecast: [],
     loading: false,
     error: null,
 }
@@ -24,6 +26,8 @@ const weatherSlice = createSlice({
             .addCase(fetchWeatherData.fulfilled, (state, action) => {
                 state.loading = false;
                 state.weather.push(action.payload);
+                state.hourlyForecast = action.payload.hourly;
+                state.dailyForecast = action.payload.daily;
             })
             .addCase(fetchWeatherData.rejected, (state, action) => {
                 state.loading = false;
