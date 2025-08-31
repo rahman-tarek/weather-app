@@ -30,7 +30,7 @@ const Weather = () => {
 
                 {/* Search Section */}
                 <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 shadow-lg mb-8">
-                    <form onSubmit={submitHandler} className="flex gap-4">
+                    <form onSubmit={submitHandler} className="flex flex-col md:flex-row lg:flex-row gap-4">
                         <input
                             type="text"
                             value={city}
@@ -88,8 +88,8 @@ const Weather = () => {
                             </div>
                         </div>
 
+                        {/* Hourly and Daily forecast*/}
                         <HourlyForecast />
-
                         <DailyForecast />
                     </>
                 )}
