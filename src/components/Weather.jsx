@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux"
 import fetchWeatherData from "../redux/fetchWeatherData";
 import weatherImage from '../assets/weather.png';
-import HourlyForecast from "./hourlyForecast";
+import HourlyForecast from "./HourlyForecast";
 import DailyForecast from "./DailyForecast";
 
 const Weather = () => {
