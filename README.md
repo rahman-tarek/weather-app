@@ -16,7 +16,7 @@ Responsive design for small device
 
 ## Installation & Usage
 ### Clone the repository
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/rahman-tarek/weather-app
 
 ### Go inside the folder
 cd weather-app
