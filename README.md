@@ -1,7 +1,7 @@
 # 🌦️ Weather App based on City
 A simple weather app that fetches and displays real time weather information for any city
 
-![Weather App](./weather-app.png)
+![Weather App](public/weather-app.png)
 
 ## ✨ Features
 Search weather by city name  
