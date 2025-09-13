@@ -1,16 +1,16 @@
 # 🌦️ Weather App based on City
 A simple weather app that fetches and displays real time weather information for any city
 
-F:\weather-app-redux-toolkit\public\weather-app.png
+(public\weather-app.png)
 
 ## ✨ Features
-Search weather by city name
-Show temperature, humidity, and weather condition
-Show hourly and daily weather information
-Responsive design for small device
+Search weather by city name  
+Show temperature, humidity, and weather condition  
+Show hourly and daily weather information  
+Responsive design for small device  
 
 ## Tech Stack
-Frontend: React
-API: OpenWeatherAPI
-Styling: Tailwind
+Frontend: React  
+API: OpenWeatherAPI  
+Styling: Tailwind  
 
